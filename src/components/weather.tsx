@@ -49,11 +49,11 @@ function Weather() {
         getCurrentLocation();
     });
 
-    useEffect(() => {
+    useEffect(() => {                                                /* eslint-disable */ 
         if (longitude !== undefined && longitude !== undefined) {
             updateWeather();
         }
-    }, [latitude, longitude]);
+    }, [latitude, longitude]); 
 
     const getCurrentLocation = async () => {
         await navigator.geolocation.getCurrentPosition(position => {
