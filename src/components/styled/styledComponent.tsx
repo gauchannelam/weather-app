@@ -11,11 +11,14 @@ flex-direction: column;
 
 export const ContentWrapper = styled.div`
 display: flex;
-`
+flex-wrap: wrap;
+`;
+
 export const LeftSection = styled.div`  
 text-align: center;  
 padding: 5px;
 `;
+
 export const RightSection = styled.div`  
 background:transparent;
 align-self: center;

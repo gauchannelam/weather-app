@@ -87,7 +87,7 @@ function Weather() {
                         <p>{moment().format('LT')}</p>
                     </div>
                     <div>
-                        <p ><GiSunrise size={30} color="orange" /><span className='ms-3'>{moment.unix(result.sys.sunrise).format("LT")}</span></p>
+                        <p><GiSunrise size={30} color="orange" /><span className='ms-3'>{moment.unix(result.sys.sunrise).format("LT")}</span></p>
                         <p><GiSunset size={30} color="orange" /><span className='ms-3'>{moment.unix(result.sys.sunset).format("LT")}</span></p>
                     </div>
                 </div>
